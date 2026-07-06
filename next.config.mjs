@@ -1,6 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  allowedDevOrigins: ['172.16.2.36'],
+  async headers() {
+    return [
+      {
+        source: '/flyingbird.webm',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: '*' },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
