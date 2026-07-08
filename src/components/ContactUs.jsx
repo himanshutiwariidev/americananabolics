@@ -86,7 +86,7 @@ export default function ContactUs() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-8 lg:grid-cols-2 lg:gap-10">
+        <div className="mt-14 ">
           {/* Left: Form */}
           <div className="rounded-3xl border border-gray-100 bg-white p-6 shadow-sm sm:p-10">
             <form className="space-y-5">
@@ -149,7 +149,7 @@ export default function ContactUs() {
           </div>
 
           {/* Right: Contact info panel */}
-          <div className="relative overflow-hidden rounded-3xl bg-slate-950 p-6 text-slate-300 sm:p-10">
+{/*           <div className="relative overflow-hidden rounded-3xl bg-slate-950 p-6 text-slate-300 sm:p-10">
             <div className="pointer-events-none absolute -top-20 right-0 h-64 w-64 rounded-full bg-emerald-500/10 blur-3xl" />
 
             <div className="relative">
@@ -191,7 +191,7 @@ export default function ContactUs() {
                 Mon–Sat, 9:00 AM – 8:00 PM IST
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
