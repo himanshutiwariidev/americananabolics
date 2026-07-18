@@ -151,7 +151,7 @@ export default function AboutUs() {
               <span className="h-px w-8 bg-sky-600" />
             </div>
 
-            <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
+            <h2 className="text-xl font-extrabold tracking-tight sm:text-5xl">
               <span className="text-gray-900">American </span>
               <span className="text-sky-900">Anabolics</span>
             </h2>

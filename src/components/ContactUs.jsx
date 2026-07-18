@@ -80,7 +80,7 @@ export default function ContactUs() {
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Contact Us
           </h2>
-          <p className="mx-auto mt-3 max-w-md text-gray-500">
+          <p className="mx-auto mt-3 max-w-3xl text-gray-500">
             Have a question about an order or a product? Send us a message or
             reach out directly.
           </p>

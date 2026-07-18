@@ -4,28 +4,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    q: "Do I need a prescription to place an order?",
-    a: "Yes. Every product on this site is Rx only. Our team verifies prescription and licensing details before any order is confirmed and shipped.",
+    q: "What anabolic steroid products do AmericanAbolics feature?",
+    a: "AmericanAbolics currently features products containing Testosterone Enanthate, Testosterone Cypionate, Trenbolone Enanthate, Nandrolone Decanoate, Nandrolone Phenylpropionate, Boldenone Undecylenate, and a mixed testosterone formulation.",
   },
   {
-    q: "How is my order packaged and shipped?",
-    a: "All orders are packed in discreet, temperature-appropriate, tamper-evident packaging and shipped with tracking so you can follow delivery status end to end.",
+    q: "What testosterone products are available?",
+    a: "The current testosterone range includes Testo Can with Testosterone Enanthate 250 mg/ml, Cypo Can with Testosterone Cypionate 250 mg/ml, and Susta Can with a Testosterone Mix Compound 250 mg/ml.",
   },
   {
-    q: "How can I verify the authenticity of a product?",
-    a: "Every vial carries a batch code printed on the label. You can contact our support team with that code at any time to confirm authenticity and manufacturing details.",
+    q: "What is the difference between Testosterone Enanthate and Testosterone Cypionate?",
+    a: "Testosterone Enanthate and Testosterone Cypionate are both esterified forms of testosterone. Their chemical ester structures and pharmacokinetic characteristics differ, although both are considered longer-acting testosterone formulations.",
   },
   {
-    q: "Do you ship internationally?",
-    a: "We ship to a range of international regions where regulations permit it. Reach out with your location and we'll confirm availability and estimated delivery timelines.",
+    q: "What nandrolone compounds are featured?",
+    a: "AmericanAbolics currently features Nandrolone Decanoate 250 mg/ml as Deca Can and Nandrolone Phenylpropionate 100 mg/ml as Nandro Can.",
   },
   {
-    q: "What payment methods are accepted?",
-    a: "We accept major bank transfers and select secure payment processors. Full payment details are shared directly with verified customers during order confirmation.",
-  },
-  {
-    q: "What is your returns and replacement policy?",
-    a: "If an order arrives damaged or incorrect, contact us within 48 hours of delivery with photos and your order number, and we'll arrange a replacement.",
+    q: "Does AmericanAbolics provide information about each compound?",
+    a: "Yes. Each product should have a dedicated page containing information about its active compound, concentration, formulation, specifications, safety considerations, and other relevant product details.",
   },
 ];
 
@@ -33,7 +29,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="bg-white py-20 md:py-28">
+    <section className="bg-white pt-20">
       <style>{`
         .faq-panel {
           display: grid;
